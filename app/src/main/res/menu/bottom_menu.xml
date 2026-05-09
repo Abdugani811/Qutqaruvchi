@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:title="Asosiy" />
+
+    <item
+        android:icon="@drawable/baseline_document_scanner_24"
+        android:title="Hujjatlar" />
+
+    <item
+        android:icon="@drawable/baseline_emergency_24"
+        android:title="SOS" />
+
+    <item
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="Yangiliklar" />
+
+    <item
+        android:icon="@drawable/baseline_info_24"
+        android:title="Info" />
+
+
+</menu>
