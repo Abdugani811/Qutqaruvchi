@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/asosiyFragment">
 
+    <fragment
+        android:id="@+id/asosiyFragment"
+        android:name="com.example.qutqaruvchi.AsosiyFragment"
+        android:label="fragment_asosiy"
+        tools:layout="@layout/fragment_asosiy" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.qutqaruvchi.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/hujjatlarFragment2"
+        android:name="com.example.qutqaruvchi.HujjatlarFragment"
+        android:label="fragment_hujjatlar"
+        tools:layout="@layout/fragment_hujjatlar" />
 </navigation>

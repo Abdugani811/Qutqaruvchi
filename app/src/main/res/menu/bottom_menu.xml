@@ -2,10 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:icon="@drawable/baseline_home_24"
+        android:id="@+id/asosiyFragment"
         android:title="Asosiy" />
 
     <item
         android:icon="@drawable/baseline_document_scanner_24"
+        android:id="@+id/hujjatlarFragment"
         android:title="Hujjatlar" />
 
     <item

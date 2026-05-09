@@ -2,6 +2,6 @@ package com.example.qutqaruvchi
 
 import androidx.fragment.app.Fragment
 
-class AsosiyFragment : Fragment(R.layout.fragment_asosiy) {
+class HujjatlarFragment : Fragment(R.layout.fragment_hujjatlar) {
 
 }
